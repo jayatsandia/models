@@ -49,6 +49,7 @@
                 "mandatory": "M",
                 "name": "Mn",
                 "size": 16,
+                "static": "S",
                 "type": "string",
                 "rbac": {
                     "der_owner": "R",
@@ -68,6 +69,7 @@
                 "mandatory": "M",
                 "name": "Md",
                 "size": 16,
+                "static": "S",
                 "type": "string",
                 "rbac": {
                     "der_owner": "R",
@@ -86,6 +88,7 @@
                 "label": "Options",
                 "name": "Opt",
                 "size": 8,
+                "static": "S",
                 "type": "string",
                 "rbac": {
                     "der_owner": "R",
@@ -104,6 +107,7 @@
                 "label": "Version",
                 "name": "Vr",
                 "size": 8,
+                "static": "S",
                 "type": "string",
                 "rbac": {
                     "der_owner": "R",
@@ -123,6 +127,7 @@
                 "mandatory": "M",
                 "name": "SN",
                 "size": 16,
+                "static": "S",
                 "type": "string",
                 "rbac": {
                     "der_owner": "R",
@@ -157,6 +162,7 @@
             {
                 "desc": "Force even alignment",
                 "name": "Pad",
+                "static": "S",
                 "type": "pad",
                 "rbac": {
                     "der_owner": "R",
