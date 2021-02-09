@@ -30,7 +30,18 @@
                                         "notes": "",
                                         "sf": "V_SF",
                                         "type": "uint16",
-                                        "units": "VRefPct"
+                                        "units": "VRefPct",
+                                        "rbac": {
+                                            "der_owner": "",
+                                            "installer": "RW",
+                                            "der_vendor_or_service_provider": "R",
+                                            "3rd_party_or_aggregator": "RW",
+                                            "utility_or_dso": "RW",
+                                            "iso_rto_tso": "R",
+                                            "security_administrator": "",
+                                            "security_auditor": "",
+                                            "rbac_administrator": ""
+                                        }
                                     },
                                     {
                                         "access": "RW",
@@ -40,7 +51,18 @@
                                         "notes": "",
                                         "sf": "Tms_SF",
                                         "type": "uint32",
-                                        "units": "Secs"
+                                        "units": "Secs",
+                                        "rbac": {
+                                            "der_owner": "",
+                                            "installer": "RW",
+                                            "der_vendor_or_service_provider": "R",
+                                            "3rd_party_or_aggregator": "RW",
+                                            "utility_or_dso": "RW",
+                                            "iso_rto_tso": "R",
+                                            "security_administrator": "",
+                                            "security_auditor": "",
+                                            "rbac_administrator": ""
+                                        }
                                     }
                                 ],
                                 "type": "group"
@@ -90,7 +112,18 @@
                                         "notes": "",
                                         "sf": "V_SF",
                                         "type": "uint16",
-                                        "units": "VRefPct"
+                                        "units": "VRefPct",
+                                        "rbac": {
+                                            "der_owner": "",
+                                            "installer": "RW",
+                                            "der_vendor_or_service_provider": "R",
+                                            "3rd_party_or_aggregator": "RW",
+                                            "utility_or_dso": "RW",
+                                            "iso_rto_tso": "R",
+                                            "security_administrator": "",
+                                            "security_auditor": "",
+                                            "rbac_administrator": ""
+                                        }
                                     },
                                     {
                                         "access": "RW",
@@ -100,7 +133,18 @@
                                         "notes": "",
                                         "sf": "Tms_SF",
                                         "type": "uint32",
-                                        "units": "Secs"
+                                        "units": "Secs",
+                                        "rbac": {
+                                            "der_owner": "",
+                                            "installer": "RW",
+                                            "der_vendor_or_service_provider": "R",
+                                            "3rd_party_or_aggregator": "RW",
+                                            "utility_or_dso": "RW",
+                                            "iso_rto_tso": "R",
+                                            "security_administrator": "",
+                                            "security_auditor": "",
+                                            "rbac_administrator": ""
+                                        }
                                     }
                                 ],
                                 "type": "group"
@@ -150,7 +194,18 @@
                                         "notes": "",
                                         "sf": "V_SF",
                                         "type": "uint16",
-                                        "units": "VRefPct"
+                                        "units": "VRefPct",
+                                        "rbac": {
+                                            "der_owner": "",
+                                            "installer": "RW",
+                                            "der_vendor_or_service_provider": "R",
+                                            "3rd_party_or_aggregator": "RW",
+                                            "utility_or_dso": "RW",
+                                            "iso_rto_tso": "R",
+                                            "security_administrator": "",
+                                            "security_auditor": "",
+                                            "rbac_administrator": ""
+                                        }
                                     },
                                     {
                                         "access": "RW",
@@ -160,7 +215,18 @@
                                         "notes": "",
                                         "sf": "Tms_SF",
                                         "type": "uint32",
-                                        "units": "Secs"
+                                        "units": "Secs",
+                                        "rbac": {
+                                            "der_owner": "",
+                                            "installer": "RW",
+                                            "der_vendor_or_service_provider": "R",
+                                            "3rd_party_or_aggregator": "RW",
+                                            "utility_or_dso": "RW",
+                                            "iso_rto_tso": "R",
+                                            "security_administrator": "",
+                                            "security_auditor": "",
+                                            "rbac_administrator": ""
+                                        }
                                     }
                                 ],
                                 "type": "group"

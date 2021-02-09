@@ -1,4 +1,4 @@
-# Script to create RBAC access rules for the IEEE 1547 points RBAC access is created for based on the
+# Script to create RBAC roles-to-rights map for IEEE 1547-2018 points. RBAC roles and rights are created based on the
 # recommendations in J. Johnson, “Recommendations for Distributed Energy Resource Access Control,”
 # Sandia Technical Report SAND2021-0977, 2021.
 #
@@ -153,13 +153,22 @@ def main():
         # address groups separately
         if data.get('group').get('groups') is not None:
             for group in data.get('group').get('groups'):
-                for pt in group.get('points'):
-                    add_rbac(model, pt)
+                for pt1 in group.get('points'):
+                    add_rbac(model, pt1)
 
                 if group.get('groups') is not None:
-                    for group2 in group.get('groups'):  # groups of groups, e.g., VV curve points
-                        for pt in group2.get('points'):
-                            add_rbac(model, pt)
+                    for group2 in group.get('groups'):  # groups of groups, e.g., VV curves
+                        # print("Group2 = %s" % group2['name'])
+                        for pt2 in group2.get('points'):
+                            add_rbac(model, pt2)
+
+                        if group2.get('groups') is not None:
+                            # print('LAYER 3 Group2.get(groups): %s' % group2.get('groups'))
+                            for group3 in group2.get('groups'):  # layer 3 groups, e.g., LVRT curve points
+                                # print("Group3 = %s" % group3['name'])
+                                for pt3 in group3.get('points'):
+                                    # print('Level 3 %s' % pt3['name'])
+                                    add_rbac(model, pt3)
 
         # Write the python dict as new json file
         with open(write_path + os.path.sep + 'model_%s.json' % model, 'w') as json_file:
