@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/sunspec/models.svg?branch=master)](https://travis-ci.org/sunspec/models)
 
 # SunSpec Role-Based Access Control
-This code presents a client-side implementation of role-based access control (RBAC) for the 700-series SunSpec Modbus models. The [add\_rbac.py](./add_rbac.py) script duplicates the SunSpec json models from [json/](./json) and puts them in [json\_rbac/](./json_rbac).
+This code presents a client-side implementation of role-based access control (RBAC) for the 700-series SunSpec Modbus models. The [add\_rbac.py](./add_rbac.py) script duplicates the SunSpec json models from [json/](./json) and puts them in [rbac\_json/](./rbac_json).
 
 For more details on the DER RBAC and the role-to-rights mapping, please see [Recommendations for Distributed Energy Resource Access Control](https://www.researchgate.net/publication/348849559_Recommendations_for_Distributed_Energy_Resource_Access_Control).
 
